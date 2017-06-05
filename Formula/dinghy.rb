@@ -3,9 +3,9 @@ require 'formula'
 DINGHY_VERSION='4.5.0-fork.1'
 
 class Dinghy < Formula
-  homepage 'https://github.com/chinthakagodawita/dinghy'
-  url  'https://github.com/chinthakagodawita/dinghy.git', :tag => "v#{DINGHY_VERSION}"
-  head 'https://github.com/chinthakagodawita/dinghy.git', :branch => :fork
+  homepage 'https://github.com/Sitback/dinghy'
+  url  'https://github.com/Sitback/dinghy.git', :tag => "v#{DINGHY_VERSION}"
+  head 'https://github.com/Sitback/dinghy.git', :branch => :fork
   version DINGHY_VERSION
 
   depends_on 'docker'
