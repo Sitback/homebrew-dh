@@ -10,7 +10,7 @@ class Dinghy < Formula
 
   depends_on 'docker'
   depends_on 'docker-machine'
-  depends_on "chinthakagodawita/dh/unfs3"
+  depends_on "Sitback/dh/unfs3"
 
   def install
     bin.install "bin/dinghy"
